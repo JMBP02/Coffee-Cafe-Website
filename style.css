@@ -1,0 +1,247 @@
+/*Home or index design*/
+body{
+    background-color: #AB886D;
+}
+
+.home-header-design{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    background-color: #493628;
+}
+
+.header-logo-design{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 13px;
+    margin-left: 20px;
+
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.header-logoname-design{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 13px;
+    margin-left: 13px;
+
+    color: white;
+    font-family: 'Montserrat', Arial;
+    font-size: 25px;
+}
+
+.home-content-design{
+    display: flex;
+    justify-content: center;
+}
+
+.home-content-design{
+    margin-top: 135px;
+}
+
+.home-business-design{
+    width: 600px;
+    border: 4px solid #493628;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-right: 50px;
+    margin-left: 15px;
+}
+
+.home-tagline{
+    font-family: 'Montserrat', Arial;
+    font-size: 50px;
+    text-align: left;
+    color: #493628;
+}
+
+.start-button-design{
+    font-family: 'Montserrat', Arial;
+    background-color: #D6C0B3;
+    border: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.5s;
+
+    vertical-align: middle;
+}
+
+.start-button-design:hover{
+    background-color: #866b56;
+}
+
+.start-button-design:active{
+    background-color: #493628;
+    color: #E4E0E1;
+}
+
+.home-text-and-button-container{
+    text-align: center;
+}
+
+/*Gallery Design*/
+
+.gallery-back-link-design{
+    text-decoration: none;
+}
+
+.gallery-info-container, .gallery-info-container1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.gallery-image-design{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid #493628;
+    border-radius: 10px;
+
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.gallery-info-design{
+    width: 1200px;
+    font-family: 'Montserrat', Arial;
+    font-size: 30px;
+    text-align: justify;
+    color: #e7d4c9;
+    margin-right: 15px;
+}
+
+.gallery-title-design{
+    font-family: 'Montserrat', Arial;
+    color: #493628;
+    margin-top: 100px;
+    font-size: 60px;
+}
+
+.gallery-title-design-container{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-info-container1{
+    margin-bottom: 100px;
+}
+
+.gallery-link{
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    margin-bottom: 100px;
+}
+
+.link-design{
+    font-family: 'Montserrat', Arial;
+    font-size: 30px;
+}
+
+.gallery-link-design{
+    text-decoration: none;
+    color: #E4E0E1;
+}
+
+.gallery-link-design:hover{
+    text-decoration: underline;
+    color: #493628;
+}
+
+.group-picture-design{
+    width: 500px;
+    border: 4px solid #493628;
+    border-radius: 10px;
+}
+
+.group-design-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.group-text-design{
+    font-family: 'Montserrat', Arial;
+    font-size: 20px;
+}
+
+
+/*History Design*/
+
+.history-title{
+    font-family: 'Montserrat', Arial;
+    font-size: 40px;
+    color: #493628;
+    margin-top: 100px;
+}
+
+.history-info{
+    width: 1200px;
+    font-size: 25px;
+    color: #e7d4c9;
+    font-family: 'Montserrat', Arial;
+    text-align: justify;
+}
+
+.history-container{
+    display: flex;
+    justify-content: center;
+}
+
+.history-title-container{
+    display: flex;
+    justify-content: center;
+}
+
+/*Result Design*/
+
+.result-image-design{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border: 4px solid #493628;
+}
+
+.result-text-design{
+    font-family: 'Montserrat', Arial;
+    font-size: 40px;
+    color: #e7d4c9;
+    text-align: center;
+
+}
+
+.result-info-container{
+    width: 400px;
+}
+
+.result-container{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 120px;
+    row-gap: 50px;
+    justify-content: center;
+}
+
+.result-title{
+    font-size: 50px;
+    font-family: 'Montserrat', Arial;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #493628;
+}
+
+.result-title-container{
+    display: flex;
+    justify-content: center;
+}
